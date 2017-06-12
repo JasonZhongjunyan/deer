@@ -96,6 +96,7 @@ export default class Home extends Component {
     }
 
     render() {
+        // console.log(item);
         return (
             <View style={{flex: 1,backgroundColor:Color.grayBgColor}}>
                 <Header title='首页'/>
