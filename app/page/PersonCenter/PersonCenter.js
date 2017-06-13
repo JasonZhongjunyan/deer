@@ -23,13 +23,13 @@ export default class PersonCenter extends Component {
 
     }
     goToOperate(){
-
+        
     }
     goToVersion(){
-
+        
     }
     exitLogin(){
-
+        
     }
 
 
@@ -39,7 +39,7 @@ export default class PersonCenter extends Component {
                 <Header title='个人中心'/>
 
                 <View style={[styles.userInfo,{backgroundColor:Color.writeFontColor}]}>
-                    <View  style={[styles.userInfoimg,{backgroundColor:Color.primaryColor}]}>
+                    <View  style={[styles.userInfoImg,{backgroundColor:Color.primaryColor}]}>
                         <Text style={[styles.userInfoImgFont,{color:Color.writeFontColor}]}>钟俊艳</Text>
                     </View>
                     <Text style={[styles.userInfoName,{color:Color.defaultFontColor}]}>13890878115</Text>
@@ -57,7 +57,7 @@ export default class PersonCenter extends Component {
                 </TouchableOpacity>
 
                 <TouchableOpacity style={[styles.operate,{backgroundColor:Color.writeFontColor}]} onPress={this.goToVersion.bind(this, 'AboutVersion')} key="Version">
-                    <Text style={[styles.operateLeft,styles.operateLeftFont,{color:Color.threeColor}]}>关于车况大师</Text>
+                    <Text style={[styles.operateLeft,styles.operateLeftFont,{color:Color.threeColor}]}>关于Deer</Text>
                     <Image style={styles.operateRight} source={require('../../assets/icon/icon-next.png')}/>
                 </TouchableOpacity>
 
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     userInfo: {
         marginBottom:20,
     },
-    userInfoimg:{
+    userInfoImg:{
         width:70,
         height:70,
         borderRadius:35,

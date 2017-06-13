@@ -10,7 +10,10 @@ import {
     Image
 } from 'react-native';
 import Home from '../../app/page/Home'
+import Movies from '../../app/page/Movies'
+import Version from '../../app/page/PersonCenter/Version'
 import PersonCenter from '../../app/page/PersonCenter/PersonCenter'
+import ResetPassword from '../../app/page/PersonCenter/ResetPassword'
 
 export default class App extends Component {
     constructor(props){
@@ -22,7 +25,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <Home/>
+            <ResetPassword/>
         );
     }
 }
