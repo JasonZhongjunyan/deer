@@ -9,11 +9,12 @@ import {
     View,
     Image
 } from 'react-native';
-import Home from '../../app/page/Home'
-import Movies from '../../app/page/Movies'
-import Version from '../../app/page/PersonCenter/Version'
-import PersonCenter from '../../app/page/PersonCenter/PersonCenter'
-import ResetPassword from '../../app/page/PersonCenter/ResetPassword'
+import Home from '../page/Home'
+import Movies from '../page/Movies'
+import Version from '../page/PersonCenter/Version'
+import PersonCenter from '../page/PersonCenter/PersonCenter'
+import ResetPassword from '../page/PersonCenter/ResetPassword'
+import Message from '../page/PersonCenter/Message'
 
 export default class App extends Component {
     constructor(props){
@@ -21,11 +22,9 @@ export default class App extends Component {
     }
 
 
-
-
     render() {
         return (
-            <ResetPassword/>
+            <Home/>
         );
     }
 }

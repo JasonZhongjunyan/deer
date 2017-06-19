@@ -1,12 +1,6 @@
 /**
  * Created by Jason钟 on 2017/6/12.
  */
-/**
- * Created by Jason钟 on 2017/6/8.
- */
-/**
- * Created by Jason钟 on 2017/6/8.
- */
 import React, { Component } from 'react';
 import {
     AppRegistry,
@@ -48,8 +42,13 @@ export default class Movies extends Component {
     render() {
         return (
             <View style={{flex: 1,backgroundColor:Color.grayBgColor}}>
-                <Header title='首页'/>
+                <Header title='电影'/>
 
+                <View>
+                    <Text>
+                        重返二十岁
+                    </Text>
+                </View>
 
             </View>
         );
