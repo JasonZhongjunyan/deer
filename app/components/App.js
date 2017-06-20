@@ -15,6 +15,8 @@ import Version from '../page/PersonCenter/Version'
 import PersonCenter from '../page/PersonCenter/PersonCenter'
 import ResetPassword from '../page/PersonCenter/ResetPassword'
 import Message from '../page/PersonCenter/Message'
+import Scan from '../page/Scan'
+import Test from '../page/Test'
 
 export default class App extends Component {
     constructor(props){
@@ -24,7 +26,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <Message/>
+            <Test/>
         );
     }
 }
