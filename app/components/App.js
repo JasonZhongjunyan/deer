@@ -9,14 +9,16 @@ import {
     View,
     Image
 } from 'react-native';
-import Home from '../page/Home'
-import Movies from '../page/Movies'
-import Version from '../page/PersonCenter/Version'
-import PersonCenter from '../page/PersonCenter/PersonCenter'
-import ResetPassword from '../page/PersonCenter/ResetPassword'
-import Message from '../page/PersonCenter/Message'
-import Scan from '../page/Scan'
-import Test from '../page/Test'
+import Home from '../page/Home';
+import Movies from '../page/Movies';
+import Version from '../page/PersonCenter/Version';
+import PersonCenter from '../page/PersonCenter/PersonCenter';
+import ResetPassword from '../page/PersonCenter/ResetPassword';
+import Message from '../page/PersonCenter/Message';
+import Scan from '../page/Scan';
+import Test from '../page/Test';
+import Share from '../page/Share';
+import DongHua from '../page/DongHua';
 
 export default class App extends Component {
     constructor(props){
@@ -26,7 +28,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <Test/>
+            <DongHua/>
         );
     }
 }
